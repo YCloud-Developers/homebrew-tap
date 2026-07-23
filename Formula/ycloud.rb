@@ -5,29 +5,29 @@
 class Ycloud < Formula
   desc "Console-oriented YCloud CLI using browser grant authentication"
   homepage "https://www.ycloud.com"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@ycloud-ai/console-cli-darwin-arm64/-/console-cli-darwin-arm64-0.1.4.tgz"
-      sha256 "fcb9bc62613a131e232d0e3442c94223d46984a612da192681a826846d517712"
+      url "https://registry.npmjs.org/@ycloud-ai/console-cli-darwin-arm64/-/console-cli-darwin-arm64-0.1.5.tgz"
+      sha256 "489fd9f98f043ac6edc0d1086563175acb79ce5a36e056577652bd5c77e32f20"
     end
 
     on_intel do
-      url "https://registry.npmjs.org/@ycloud-ai/console-cli-darwin-x64/-/console-cli-darwin-x64-0.1.4.tgz"
-      sha256 "88ae9c310f5d73eac4a1bd7cb23d1aeff1cfc9c4cd04bfcbaab414aa9b708a11"
+      url "https://registry.npmjs.org/@ycloud-ai/console-cli-darwin-x64/-/console-cli-darwin-x64-0.1.5.tgz"
+      sha256 "99a01a0866bf7e03776e8607d1cf3d1a6368f1046ed399f8e7a0ad90146c39b7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@ycloud-ai/console-cli-linux-arm64/-/console-cli-linux-arm64-0.1.4.tgz"
-      sha256 "7dcb45be7797f38c453f10bce6ba6dc2a4e80dbce8be5185a1f6f23f67331d97"
+      url "https://registry.npmjs.org/@ycloud-ai/console-cli-linux-arm64/-/console-cli-linux-arm64-0.1.5.tgz"
+      sha256 "0eb0b84fa4754ef62d0e821f17ddb25d3aa3d8a0df43745fa4804458b3e16ff4"
     end
 
     on_intel do
-      url "https://registry.npmjs.org/@ycloud-ai/console-cli-linux-x64/-/console-cli-linux-x64-0.1.4.tgz"
-      sha256 "25eb69c03a89db31d7253038d3aaa281bc36bf7fe140114c13f5d835bbd0da83"
+      url "https://registry.npmjs.org/@ycloud-ai/console-cli-linux-x64/-/console-cli-linux-x64-0.1.5.tgz"
+      sha256 "986b9d48049b9804051df812d0d130606a98a459c31e8be8ebacc07edd7d8ead"
     end
   end
 
